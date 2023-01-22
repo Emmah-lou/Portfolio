@@ -9,6 +9,7 @@
   max-width: 900px;
 }
 
+
 .blockquote {
   max-width: 100%;
   
@@ -24,10 +25,7 @@
 
 }
 
-.blockquote-padding {
-  /* padding-top: 200px; */
-  
-}
+
 
 .project-img {
   background-position: center;
