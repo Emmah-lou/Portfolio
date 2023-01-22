@@ -1,7 +1,34 @@
-.hero-background {
-  background-image: url(portfoliobackground.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+#hero {
+  background-image: url(headerimg.jpg);
   background-size: cover;
-  width: 100%;
+  background-position: center bottom;
+  height: 600px;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.blockquote {
+  max-width: 100%;
+  
+  padding: 25px;
+  border: 1px solid #5d6362ec;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  
+}
+
+.blockquote--border {
+  border-left-width: 10px;
+
+}
+
+.blockquote-padding {
+  /* padding-top: 200px; */
+  
+}
+
+.project-img {
+  background-position: center;
 }
