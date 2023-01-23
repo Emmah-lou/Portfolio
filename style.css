@@ -1,8 +1,8 @@
 #hero {
-  background-image: url(orangerings2.jpg);
+  background-image: url(headerimg.jpg);
   background-size: cover;
   background-position: center bottom;
-  height: 600px;
+  height: 100%;
 }
 
 #secondary-background {
@@ -33,14 +33,18 @@
 }
 
 .projects-container {
-  margin-top: 55px;
-  margin-bottom: 55px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  
 }
 
 .project-img {
   background-position: center;
 }
 
+.image-max-width {
+  max-width: fit-content;
+}
 .navbar-alignment {
   vertical-align: bottom;
 }
@@ -55,4 +59,9 @@
   align-items: center;
   margin: 75px auto;
 
+}
+
+.name-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 48px;
 }
