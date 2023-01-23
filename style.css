@@ -1,12 +1,19 @@
 #hero {
-  background-image: url(headerimg.jpg);
+  background-image: url(orangerings2.jpg);
   background-size: cover;
   background-position: center bottom;
   height: 600px;
 }
 
+#secondary-background {
+  background-image: url(secondarybackground.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
 .container {
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 
