@@ -1,8 +1,19 @@
+@font-face {
+  font-family: dharma-type;
+  src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: floral-text;
+  src: url(FloralCapsNouveau.ttf);
+}
+
 #hero {
   background-image: url(whitFloralBackG.jpg);
-  background-size: cover;
-  background-position: center bottom;
-  height: 100%;
+  background-size: stretch;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100%; */
 }
 
 #secondary-background {
@@ -12,25 +23,23 @@
   
 }
 
+.nav-logo {
+  font-family: floral-text;
+  font-size: 22px;
+}
+
 .container {
   max-width: 1200px;
 }
 
-
-.blockquote {
-  max-width: 100%;
-  
-  padding: 25px;
-  border: 1px solid #5d6362ec;
-  box-sizing: border-box;
-  background-color: lightgrey;
-  
+h2 {
+  font-size: 48px;
+  font-family: a;
 }
 
-.blockquote--border {
-  border-left-width: 10px;
 
-}
+
+
 
 .projects-container {
   padding-top: 55px;
@@ -45,12 +54,11 @@
 .image-max-width {
   max-width: fit-content;
 }
-.navbar-alignment {
-  vertical-align: bottom;
-}
+
 
 .nav-item {
   font-size: 18px;
+  font-family: a;
 }
 
 .button-layout {
@@ -62,6 +70,20 @@
 }
 
 .name-text {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 48px;
+  font-family: floral-text;
+  font-size: 72px;
+}
+
+.quote {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.quote-author {
+  font-size: 18px;
+}
+
+.self-portrait {
+  margin-left: 50px;
 }
