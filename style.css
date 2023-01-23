@@ -41,3 +41,11 @@
 .nav-item {
   font-size: 18px;
 }
+
+.button-layout {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 75px auto;
+
+}
