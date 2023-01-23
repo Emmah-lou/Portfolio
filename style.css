@@ -33,3 +33,11 @@
 .project-img {
   background-position: center;
 }
+
+.navbar-alignment {
+  vertical-align: bottom;
+}
+
+.nav-item {
+  font-size: 18px;
+}
